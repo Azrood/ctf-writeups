@@ -1,6 +1,5 @@
 import base64
 num = 0
-count = 0
 cipher_b64 = b"MTAwLDExMSwxMDAsOTYsMTEyLDIxLDIwOSwxNjYsMjE2LDE0MCwzMzAsMzE4LDMyMSw3MDIyMSw3MDQxNCw3MDU0NCw3MTQxNCw3MTgxMCw3MjIxMSw3MjgyNyw3MzAwMCw3MzMxOSw3MzcyMiw3NDA4OCw3NDY0Myw3NTU0MiwxMDAyOTAzLDEwMDgwOTQsMTAyMjA4OSwxMDI4MTA0LDEwMzUzMzcsMTA0MzQ0OCwxMDU1NTg3LDEwNjI1NDEsMTA2NTcxNSwxMDc0NzQ5LDEwODI4NDQsMTA4NTY5NiwxMDkyOTY2LDEwOTQwMDA="
 
 def a(num):
@@ -48,8 +47,7 @@ primes = [2,3,5,7,11,101,131,151,181,191,313,353,373,70207,
 1093901,
         
         ]
-for num in primes:
-    print(chr(int(cipher[count]) ^ num), end='', flush=True)
-    count += 1
+for i, num in enumerate(primes):
+    print(chr(int(cipher[i]) ^ num), end='', flush=True)
              
 print()
