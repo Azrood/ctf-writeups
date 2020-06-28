@@ -2,9 +2,11 @@
 
 ## Challenge
 
+```
 People claim that RSA with two 1024-bit primes is secure. But I trust no one. That's why I use three 1024-bit primes.
 
 I even created my own prime generator to be extra cautious!
+```
 
 We're given two files, the source code `primimity.py` and `primimity-public-key.txt` where there is a public key (n, e and c)
 
