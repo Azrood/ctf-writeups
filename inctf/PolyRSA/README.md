@@ -1,6 +1,6 @@
 # PolyRSA
 
-We're given a file `out.txt` where we're given `p` a prime number. `n` a polynome, and m^65537, a polynome (the ciphertext).
+We're given a file [`out.txt`](out.txt) where we're given `p` a prime number. `n` a polynome, and m^65537, a polynome (the ciphertext).
 
 Anyway, after searching we can find this paper that talks about the specifications of polynomial RSA.
 
