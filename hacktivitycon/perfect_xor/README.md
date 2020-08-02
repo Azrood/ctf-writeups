@@ -1,6 +1,6 @@
 # Perfect XOR
 
-We're given a file `decrypt.py`
+We're given a file [decrypt.py](/hacktivitycon/perfect_xor/decrypt.py)
 
 ```Python
 import base64
