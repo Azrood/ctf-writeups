@@ -1,3 +1,8 @@
+# Description
+Alice sent over a couple of images with sensitive information to Bob, encrypted with a pre-shared key. It is the most secure encryption scheme, theoretically...
+
+# Solution
+
 the pre-shared key hints that maybe the 2 images got xored with same key.
 
 If P1 xor K = C1
